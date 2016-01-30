@@ -14,7 +14,7 @@ a:active,a:focus{outline:0;text-decoration:none;star:expression(this.onFocus=thi
 img{width:100%;border:0;vertical-align:middle;-webkit-user-select:none;}
 input,select{outline:0}
 h1,h2,h3,h4,h5,h6{font-size:100%;font-variant:normal}
-button,input[type=button],input[type=reset],input[type=submit]{line-height:normal!important;-webkit-appearance:none}
+button,input[type=button],input[type=text],input[type=reset],input[type=submit]{line-height:normal!important;-webkit-appearance:none}
 ::-webkit-input-placeholder { /* WebKit browsers */
     color:    #D2A2C3;
 }
@@ -80,6 +80,7 @@ button,input[type=button],input[type=reset],input[type=submit]{line-height:norma
     width: 100%;
     max-width: 768px;
     background-color:#F8F3F8;
+    border-top:1px solid #dadada;
 }
 .navBottom li {
     height: 50px;
@@ -100,7 +101,7 @@ button,input[type=button],input[type=reset],input[type=submit]{line-height:norma
 .drug-item {
     float: left;
     width: 33.1%;
-    height: 120px;
+    height: 100px;
     border-bottom: 1px solid #eee;
     text-align: center;
     color: #39383e !important;

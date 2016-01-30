@@ -7,106 +7,106 @@
     background: url(../images/sprites.png) no-repeat;
     display: block;
     margin: 14px auto;
-    height: 40px;
-    background-size: 621px auto;
+    height: 26px;
+    background-size: 414px auto;
     margin: 20px auto;
 }
 
 .gaoxueya_icon{
-    background-position: -191px 0px;
-    width: 46px;
+    background-position: -127px 0px;
+    width: 32px;
 }
 .tangniaobin_icon{
-    background-position: -435.997375px -37px;
-    width: 40px;
+    background-position: -291px -26px;
+    width: 25px;
     
 }
 .shenbin_icon {
-    background-position: -413.994766px 1px;
-    width: 57px;
+    background-position: -277px 1px;
+    width: 35px;
 }
 .xiaochuan_icon {
-    background-position: -556px 0;
-    width: 40px;
+    background-position: -372px 0;
+    width: 24px;
 }
 .binggan_icon {
-    background-position: -40px 0px;
-    width: 58px;
+    background-position: -26px 0px;
+    width: 38px;
 }
 .gaozhixuezheng_icon {
-    background-position: -237px 0;
-    width: 33px;
+    background-position: -159px 0;
+    width: 21px;
 }
 .feiai_icon {
-    background-position: -142px 0;
-    width: 49px;
+    background-position: -95px 0;
+    width: 31px;
 }
 .qinleixian_icon {
-    background-position: -299px -40px;
-    width: 52px;
+    background-position: -200px -27px;
+    width: 34px;
 }
 .luanchaoai_icon{
-    background-position: -149px -44px;
-    width: 80px;
+    background-position: -100px -28px;
+    width: 52px;
 }
 .leifengshi_icon {
-    background-position: -97px 0;
-    width: 46px;
+    background-position: -65px 0;
+    width: 29px;
 }
 .gongjinai_icon {
-    background-position: -322px 1px;
-    width: 65px;
+    background-position: -216px 1px;
+    width: 41px;
 }
 .ruxianai_icon {
-    background-position: -350px -39px;
-    width: 83px;
+    background-position: -235px -26px;
+    width: 55px;
 }
 .guanxinbing_icon {
-    background-position: -388px 1px;
-    width: 27px;
+    background-position: -258px 1px;
+    width: 17px;
 }
 .toujinai_icon {
-    background-position: -470px 0;
-    width: 42px;
+    background-position: -312px 0;
+    width: 29px;
 }
 .weiai_icon {
-    background-position: -512px 0;
-    width: 45px;
+    background-position: -342px 0;
+    width: 29px;
 }
 
 .jiechangai_icon {
-    background-position: 0 -38px;
-    width: 35px;
+    background-position: 0 -27px;
+    width: 23px;
 }
 .genduo_icon {
-    background-position: -271px 5px;
-    width: 50px;
+    background-position: -183px 5px;
+    width: 31px;
 }
 .qingguang_icon {
-    background-position: -229px -42px;
-    width: 71px;
+    background-position: -153px -29px;
+    width: 46px;
 }
 .xinshuai_icon {
-    background-position: -475px -41px;
-    width: 45px;
+    background-position: -317px -28px;
+    width: 30px;
 }
 .langchuangshenyan_icon {
-    background-position: -95px -41px;
-    width: 55px;
+    background-position: -63px -27px;
+    width: 36px;
 }
 .kuiyangjiechang {
-    background-position: -520px -38px;
+    background-position: -348px -27px;
     width: 37px;
 }
 .keluoenbin_icon {
-    background-position: -36px -40px;
-    width: 59px;
-    height: 46px;
-    margin-bottom: 14px;
+    background-position: -24px -26px;
+    width: 37px;
+    height: 31px;
+    margin-bottom: 15px;
 }
 .aitong_icon {
     background-position: 0 0;
-    width: 38px;
+    width: 26px;
 }
 
 
@@ -114,26 +114,26 @@
     background: url(../images/sprites.png) no-repeat;
     display: block;
     
-    background-size: 550px auto;
+    background-size: 414px auto;
     
-    height: 28px;
+    height: 23px;
     margin: 0px auto;
 }
 .zhaoyao_hover_icon {
-    background-position: -159px -77px;
-    width: 28px;
+    background-position: -120px -57px;
+    width: 21px;
 }
 .zhaocishan_icon {
-    background-position: -95px -79px;
-    width: 33px;
+    background-position: -72px -59px;
+    width: 24px;
 }
 .geren_icon {
-    background-position: -30px -79px;
-    width: 27px;
+    background-position: -22px -60px;
+    width: 21px;
 }
 .zixun_icon {
-    background-position: -214px -76px;
-    width: 19px;
+    background-position: -161px -56px;
+    width: 14px;
 }
 
 
