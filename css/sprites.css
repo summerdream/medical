@@ -1,10 +1,10 @@
 .sosuo_icon,.geren_hover_icon, .zhaocishan_hover_icon, .zhaoyao_icon,.zixun_hover_icon, .geren_bg{
-	background: url(../images/sprites.png) no-repeat;
+    background: url(../images/sprites.png) no-repeat;
     display: block;
     
 }
 .sickness{
-	background: url(../images/sprites.png) no-repeat;
+    background: url(../images/sprites.png) no-repeat;
     display: block;
     margin: 14px auto;
     height: 40px;
@@ -17,7 +17,7 @@
     width: 46px;
 }
 .tangniaobin_icon{
-	background-position: -435.997375px -37px;
+    background-position: -435.997375px -37px;
     width: 40px;
     
 }
@@ -46,7 +46,7 @@
     width: 52px;
 }
 .luanchaoai_icon{
-	background-position: -149px -44px;
+    background-position: -149px -44px;
     width: 80px;
 }
 .leifengshi_icon {
@@ -54,7 +54,7 @@
     width: 46px;
 }
 .gongjinai_icon {
-    background-position: -322px 0;
+    background-position: -322px 1px;
     width: 65px;
 }
 .ruxianai_icon {
@@ -111,27 +111,29 @@
 
 
 .nav_icon {
-	background: url(../images/sprites.png) no-repeat;
+    background: url(../images/sprites.png) no-repeat;
     display: block;
-    background-size: 621px auto;
-    height: 35px;
+    
+    background-size: 550px auto;
+    
+    height: 28px;
     margin: 0px auto;
 }
 .zhaoyao_hover_icon {
-    background-position: -180px -87px;
-    width: 32px;
+    background-position: -159px -77px;
+    width: 28px;
 }
 .zhaocishan_icon {
-    background-position: -108px -90px;
-    width: 36px;
+    background-position: -95px -79px;
+    width: 33px;
 }
 .geren_icon {
-    background-position: -34px -90px;
-    width: 31px;
+    background-position: -30px -79px;
+    width: 27px;
 }
 .zixun_icon {
-    background-position: -241px -86px;
-    width: 22px;
+    background-position: -214px -76px;
+    width: 19px;
 }
 
 
@@ -151,9 +153,9 @@
 
 
 .sosuo_icon{
-	background-position: -533.9895629882812px -184.9739532470703px ;
-	width: 42px;
-	height: 42px;
+    background-position: -533.9895629882812px -184.9739532470703px ;
+    width: 42px;
+    height: 42px;
 }
 .sosuo_icon {
     background-position: -266.989563px -91.973953px;
@@ -163,34 +165,34 @@
 }
 
 .geren_hover_icon{
-	background-position: 0 -179.9765625px ;
-	width: 63px;
-	height: 62px;
+    background-position: 0 -179.9765625px ;
+    width: 63px;
+    height: 62px;
 }
 
 .zhaocishan_hover_icon{
-	background-position: -139px -180.9921875px ;
-	width: 71px;
-	height: 62px;
+    background-position: -139px -180.9921875px ;
+    width: 71px;
+    height: 62px;
 }
 
 .zhaoyao_icon{
-	background-position: -292.9947814941406px -179.9921875px ;
-	width: 62px;
-	height: 62px;
+    background-position: -292.9947814941406px -179.9921875px ;
+    width: 62px;
+    height: 62px;
 }
 
 
 .zixun_hover_icon{
-	background-position: -435.98956298828125px -172.96875px ;
-	width: 42px;
-	height: 62px;
+    background-position: -435.98956298828125px -172.96875px ;
+    width: 42px;
+    height: 62px;
 }
 
 
 .geren_bg{
-	background-position: 0 -250px ;
-	width: 1242px;
-	height: 180px;
+    background-position: 0 -250px ;
+    width: 1242px;
+    height: 180px;
 }
 
