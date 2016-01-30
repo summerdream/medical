@@ -37,22 +37,33 @@ button,input[type=button],input[type=text],input[type=reset],input[type=submit]{
 .fl{float:left}
 .fl,.fr{display:inline}
 .fr{float:right}
+.tips{
+    padding: 20px;
+    width: 100px;
+    background-color: #7e147e;
+    color: white;
+    opacity: 0.6;
+    position: fixed;
+    top: 50%;
+    left: 40%;
+    display: none;
+}
 .serch-input{
     width: 96%;
-    height: 42px;
+    height: 28px;
     margin: 10px auto;
     border: none;
     display: block;
     background-color: #F5E7F0;
     background-image: url(../images/search.png);
     background-repeat: no-repeat;
-    background-position: 1px;
-    background-size: 32px;
+    background-position: 3px 4px;
+    background-size: 22px;
     background-origin: padding-box;
     border-radius: 3px;
     color: #D2A2C3;
-    padding-left: 33px;
-    font-size: 18px;
+    padding-left: 26px;
+    font-size: 14px;
 }
 .carousel-indicators .active {
     width: 8px;
@@ -114,12 +125,12 @@ button,input[type=button],input[type=text],input[type=reset],input[type=submit]{
     border-left: 1px solid #eee;
 
 }
-form{
+.regist{
     border-top: 10px solid #f2e7f2;
     color: #717071;
     padding: 20px;
 }
-form label{
+.regist label{
     font-weight: 400;
 }
 .input-row{
