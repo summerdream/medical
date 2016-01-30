@@ -130,7 +130,7 @@ form label{
     height: 40px;
     border-radius: 3px;
     background-color: #fff;
-    box-shadow: none;
+    box-shadow: none !important;
 }
 .purple-btn{
     width: 100%;
@@ -163,7 +163,7 @@ form label{
     text-align: center;
     position: relative;
     vertical-align: middle;
-    line-height: 35px;
+    line-height: 40px;
     color: #c7a5c9;
     margin: 0 0px 0 10px;
 }
