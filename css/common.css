@@ -47,6 +47,7 @@ button,input[type=button],input[type=text],input[type=reset],input[type=submit]{
     top: 50%;
     left: 40%;
     display: none;
+    border-radius: 3px;
 }
 .serch-input{
     width: 96%;
@@ -64,6 +65,9 @@ button,input[type=button],input[type=text],input[type=reset],input[type=submit]{
     color: #D2A2C3;
     padding-left: 26px;
     font-size: 14px;
+}
+.opacity{
+    opacity: 1;
 }
 .carousel-indicators .active {
     width: 8px;
