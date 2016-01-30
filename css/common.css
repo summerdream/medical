@@ -129,6 +129,7 @@ form label{
     height: 40px;
     border-radius: 3px;
     background-color: #fff;
+    box-shadow: none;
 }
 .purple-btn{
     width: 100%;
