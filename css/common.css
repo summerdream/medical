@@ -131,7 +131,7 @@ form label{
     height: 40px;
     border-radius: 3px;
     background-color: #fff;
-    box-shadow: none !important;
+    padding-left: 10px;
 }
 .purple-btn{
     width: 100%;
@@ -141,6 +141,9 @@ form label{
     border-radius: 3px;
     height: 40px;
     font-size: 18px;
+}
+.purple-btn:hover{
+    opacity: 0.8;
 }
 .drug-intro {
   font-size: 15px;
