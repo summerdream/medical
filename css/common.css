@@ -7,8 +7,8 @@ body{min-height:568px; min-height:100%; height:auto; font-family:Microsoft Yahei
 article,aside,dialog,figure,footer,header,hgroup,menu,nav,section{display:block}
 dl,li,menu,ol,ul{list-style:none}
 address,em,i,th{font-weight:400;font-style:normal}
-a{color:#999;text-decoration:none;}
-a:link,a:visited{color:#999;text-decoration:none;cursor:pointer}
+a{text-decoration:none;}
+a:link,a:visited{color:#cba1cb;text-decoration:none;cursor:pointer}
 a:hover{cursor:pointer}
 a:active,a:focus{outline:0;text-decoration:none;star:expression(this.onFocus=this.blur())}
 img{width:100%;border:0;vertical-align:middle;-webkit-user-select:none;}
@@ -26,6 +26,26 @@ button,input[type=button],input[type=text],input[type=reset],input[type=submit]{
 }
 :-ms-input-placeholder { /* Internet Explorer 10+ */
     color:    #D2A2C3;
+}
+.hot-search{
+    border-top:1px solid #dadada;
+}
+.hot-search h3{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #dadada;
+    font-size: 16px;
+}
+.keyword-row{
+    padding: 0 10px;
+}
+.keyword{
+    border: 1px solid #dadada;
+    width: 31%;
+    float: left;
+    margin-right: 5px;
+    box-sizing: content-box;
 }
 .bottom {
     width: 100%;
@@ -50,6 +70,29 @@ button,input[type=button],input[type=text],input[type=reset],input[type=submit]{
     border-radius: 3px;
 }
 .serch-input{
+    width: 85%;
+    height: 28px;
+    margin: 10px;
+    border: none;
+    display: block;
+    background-color: #F5E7F0;
+    background-image: url(../images/search.png);
+    background-repeat: no-repeat;
+    background-position: 3px 4px;
+    background-size: 22px;
+    background-origin: padding-box;
+    border-radius: 3px;
+    color: #D2A2C3;
+    padding-left: 26px;
+    font-size: 14px;
+    float: left;
+}
+.cancel{
+    margin: 14px 0;
+    color: #cba1cb;
+    display: inline-block;
+}
+.index-serch-input{
     width: 96%;
     height: 28px;
     margin: 10px auto;

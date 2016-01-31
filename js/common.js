@@ -13,4 +13,21 @@ $(function(){
     	$('.tips').html('提交成功').show();
     	setTimeout("$('.tips').hide();$('.purple-btn').css('opacity','1')",1000)
     })
+    $(".item" ).on( "swipeleft", function(e){
+        var index=parseInt($(e.target).parent().attr('data-index'))+1;
+        if(index<2){
+            $('[data-slide-to='+index+']').click()
+        }
+
+    }).on("swiperight", function(e){
+        var index=parseInt($(e.target).parent().attr('data-index'))-1;
+        if(index>-1){
+            $('[data-slide-to='+index+']').click()
+        }
+
+    } );
+
+    $('.index-serch-input').focus(function(){
+        document.location='search.html'
+    })
 });
