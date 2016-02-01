@@ -47,4 +47,10 @@ $(function(){
 
         $('.search-result').removeClass('none')
     })
+    $('.goIndex').click(function() {
+        document.location='index.html'
+    })
+    $('.goCharity').click(function() {
+        document.location='find-charity.html'
+    })
 });

@@ -294,6 +294,36 @@ button,input[type=button],input[type=text],input[type=reset],input[type=submit]{
     border-color: #7e147e;
     color:white;
 }
+/*找慈善*/
+.charity-item .col-xs-3,.charity-item .col-xs-6{
+    padding: 0
+}
+.charity-item {
+  border-bottom: 1px solid #dadada;
+  padding: 15px 25px;
+}
+.charity-img img {
+    width: 90px;
+    height: 60px;
+    border-radius: 4px;
+}
+.charity-title{
+    font-size: 14px;
+    line-height: 36px;
+    white-space: nowrap;
+}
+.charity-content{
+    font-size: 12px;
+    line-height: 15px;
+}
+.charity-order{
+    color: #c7a5c9;
+    margin-top: 36px;
+    font-size: 12px;
+}
+.charity-item .charity-intro{
+    padding-left: 15px
+}
 /***********************/
 
 @media (-webkit-min-device-pixel-ratio:1.5),(min-device-pixel-ratio:1.5),(min-resolution: 144dpi),(min-resolution:1.5dppx) {
@@ -314,6 +344,22 @@ button,input[type=button],input[type=text],input[type=reset],input[type=submit]{
     .hairlines .oneBorder{border-width:.5px;border-width:.5px !important}
 }
 @media all and (max-width:320px){/*ip5*/
+    .charity-img img {
+      width: 80px;
+      height: 57px;
+      border-radius: 4px;
+    }
+    .charity-title {
+      font-size: 12px;
+      line-height: 36px;
+      white-space: nowrap;
+    }
+    .item-intro {
+      padding-left: 8px;
+    }
+    .item-img{
+        padding-left: 10px;
+    }
 }
 @media all and (min-width:375px){ /*ip6*/
 

@@ -27,62 +27,176 @@
 <body>
 <div id="wrap" >
     <input type="text" placeholder="搜索" class="index-serch-input" />
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-        </ol>
+    <input type="button" value="取消" class="cancel" />
+    <div class="clear"></div>
+    <div class="pannel index-pannel">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            </ol>
 
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-            <div class="item active" data-index="0">
-                <img src="images/banner.png" alt="banner">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active" data-index="0">
+                    <img src="images/banner.png" alt="banner">
+                </div>
+                <div class="item" data-index="1">
+                    <img src="images/banner.png" alt="banner">
+                </div>
             </div>
-            <div class="item" data-index="1">
-                <img src="images/banner.png" alt="banner">
+
+        </div>
+        <div class="charity-itemlist">
+            <div class="charity-item row">
+                <div class="charity-img col-xs-3">
+                    <img src="images/tu1.png" alt="banner">
+                </div>
+                <div class="charity-intro col-xs-6">
+                    <p class="charity-title">派罗欣乙肝/丙肝慈善赠药</p>
+                    <p class="charity-content">派罗欧赠药</p>
+                </div>
+                <div class="col-xs-3">
+                    <p class="charity-order">200人已预约</p>
+                </div>
+            </div>
+            <div class="charity-item row">
+                <div class="charity-img col-xs-3">
+                    <img src="images/tu2.png" alt="banner">
+                </div>
+                <div class="charity-intro col-xs-6">
+                    <p class="charity-title">达尔他韦和Asunaprevir</p>
+                    <p class="charity-content">丙肝招募</p>
+                </div>
+                <div class="col-xs-3">
+                    <p class="charity-order">120人已预约</p>
+                </div>
+            </div>
+            <div class="charity-item row">
+                <div class="charity-img col-xs-3">
+                    <img src="images/tu3.png" alt="banner">
+                </div>
+                <div class="charity-intro col-xs-6">
+                    <p class="charity-title">瑞格非尼治疗晚期肝癌</p>
+                    <p class="charity-content">肝癌招募</p>
+                </div>
+                <div class="col-xs-3">
+                    <p class="charity-order">350人已预约</p>
+                </div>
+            </div>
+            <div class="charity-item row">
+                <div class="charity-img col-xs-3">
+                    <img src="images/tu6.png" alt="banner">
+                </div>
+                <div class="charity-intro col-xs-6">
+                    <p class="charity-title">阿诺新辅助治疗前瞻性非干预性研究</p>
+                    <p class="charity-content">乳腺癌招募</p>
+                </div>
+                <div class="col-xs-3">
+                    <p class="charity-order">200人已预约</p>
+                </div>
+            </div>
+            <div class="charity-item row">
+                <div class="charity-img col-xs-3">
+                    <img src="images/tu5.png" alt="banner">
+                </div>
+                <div class="charity-intro col-xs-6">
+                    <p class="charity-title">AZD9291开放单臂研究</p>
+                    <p class="charity-content">肺癌招募</p>
+                </div>
+                <div class="col-xs-3">
+                    <p class="charity-order">260人已预约</p>
+                </div>
+            </div>
+            <div class="charity-item row">
+                <div class="charity-img col-xs-3">
+                    <img src="images/tu6.png" alt="banner">
+                </div>
+                <div class="charity-intro col-xs-6">
+                    <p class="charity-title">橙心关爱-慢性肾脏病患者教育公益项目</p>
+                    <p class="charity-content">肾病讲堂</p>
+                </div>
+                <div class="col-xs-3">
+                    <p class="charity-order">200人已预约</p>
+                </div>
             </div>
         </div>
-
+        <div class="bottom">
+            
+        </div>
+        <div class="navBottom">
+            <nav>
+                <div id="navBottom_ul">
+                    <ul class="box">
+                        <li>
+                            <a href="javascript:;" class="goIndex"><span class="nav_icon zhaoyao_icon"></span>找新药</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="active goCharity"><span class="nav_icon zhaocishan_hover_icon"></span>找慈善</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="goUser"><span class="nav_icon geren_icon"></span>个人中心</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="goAsk"><span class="nav_icon zixun_icon"></span>我要咨询</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </div>
-    <div class="charity-itemlist">
+    <div  class="pannel hot-search none">
+        <h3>热门搜索</h3>
+        <div class="keyword-row">
+            <div class="keyword">肝癌</div>
+            <div class="keyword">高血压</div>
+            <div class="keyword">胃癌</div>
+        </div>
+        <div class="keyword-row">
+            <div class="keyword">类风湿性关节炎</div>
+            <div class="keyword">肺癌</div>
+            <div class="keyword">糖尿病</div>
+        </div>
+    </div>
+    <div class="pannel search-result none">
         <div class="result-item row">
             <div class="item-img col-xs-2">
                 <img src="images/banner.png" alt="banner">
             </div>
-            <div class="item-intro col-xs-8">
-                <p class="intro-title">肝癌赠药活动</p>
+            <div class="item-intro col-xs-10">
+                <p class="intro-title">高血压</p>
                 <p class="intro-content">派罗欧</p>
             </div>
-            <div class="col-xs-2">
+        </div>
+        <div class="result-item row">
+            <div class="item-img col-xs-2">
+                <img src="images/banner.png" alt="banner">
+            </div>
+            <div class="item-intro col-xs-10">
+                <p class="intro-title">丙肝</p>
+                <p class="intro-content">派罗欧</p>
+            </div>
+        </div>
+        <div class="result-item row">
+            <div class="item-img col-xs-2">
+                <img src="images/banner.png" alt="banner">
+            </div>
+            <div class="item-intro col-xs-10">
                 <p class="intro-title">肝癌赠药活动</p>
                 <p class="intro-content">派罗欧</p>
             </div>
         </div>
-    </div>
-    <div class="bottom">
-        
-    </div>
-    <div class="navBottom">
-        <nav>
-            <div id="navBottom_ul">
-                <ul class="box">
-                    <li>
-                        <a href="javascript:;" class="active"><span class="nav_icon zhaoyao_hover_icon"></span>找新药</a>
-                    </li>
-                    <li>
-                        <a href="javascript:;" class=""><span class="nav_icon zhaocishan_icon"></span>找慈善</a>
-                    </li>
-                    <li>
-                        <a href="javascript:;" class=""><span class="nav_icon geren_icon"></span>个人中心</a>
-                    </li>
-                    <li>
-                        <a href="javascript:;" class=""><span class="nav_icon zixun_icon"></span>我要咨询</a>
-                    </li>
-                </ul>
+        <div class="result-item row">
+            <div class="item-img col-xs-2">
+                <img src="images/banner.png" alt="banner">
             </div>
-        </nav>
-    </div>
+            <div class="item-intro col-xs-10">
+                <p class="intro-title">高血压赠药</p>
+                <p class="intro-content">派罗欧</p>
+            </div>
+        </div>
+    </div> 
 
 </div>
 <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>

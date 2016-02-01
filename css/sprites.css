@@ -1,4 +1,4 @@
-.sosuo_icon,.geren_hover_icon, .zhaocishan_hover_icon, .zhaoyao_icon,.zixun_hover_icon, .geren_bg{
+.sosuo_icon,.geren_hover_icon,.zixun_hover_icon, .geren_bg{
     background: url(../images/sprites.png) no-repeat;
     display: block;
     
@@ -123,6 +123,14 @@
     background-position: -120px -57px;
     width: 21px;
 }
+.zhaocishan_hover_icon {
+  background-position: -46px -59px;
+  width: 24px;
+}
+.zhaoyao_icon {
+  background-position: -97px -59px;
+  width: 21px;
+}
 .zhaocishan_icon {
     background-position: -72px -59px;
     width: 24px;
@@ -169,19 +177,6 @@
     width: 63px;
     height: 62px;
 }
-
-.zhaocishan_hover_icon{
-    background-position: -139px -180.9921875px ;
-    width: 71px;
-    height: 62px;
-}
-
-.zhaoyao_icon{
-    background-position: -292.9947814941406px -179.9921875px ;
-    width: 62px;
-    height: 62px;
-}
-
 
 .zixun_hover_icon{
     background-position: -435.98956298828125px -172.96875px ;
