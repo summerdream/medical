@@ -30,4 +30,10 @@ $(function(){
     $('.index-serch-input').focus(function(){
         document.location='search.html'
     })
+    $('.serch-input').keyup(function(){
+
+        $('.hot-search').addClass('none')
+
+        $('.search-result').removeClass('none')
+    })
 });

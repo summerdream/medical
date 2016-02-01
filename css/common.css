@@ -27,6 +27,14 @@ button,input[type=button],input[type=text],input[type=reset],input[type=submit]{
 :-ms-input-placeholder { /* Internet Explorer 10+ */
     color:    #D2A2C3;
 }
+.none{
+    display: none
+}
+.clearfix:after{clear:both;content:".";display:block;height:0;visibility:hidden}
+.fl{float:left}
+.fl,.fr{display:inline}
+.fr{float:right}
+/*热门搜索*/
 .hot-search{
     border-top:1px solid #dadada;
 }
@@ -40,23 +48,55 @@ button,input[type=button],input[type=text],input[type=reset],input[type=submit]{
 .keyword-row{
     padding: 0 10px;
 }
+
+.keyword-row .keyword:not(:first-child){
+    margin-left: 5px;
+}
 .keyword{
     border: 1px solid #dadada;
-    width: 31%;
+    width: 32%;
     float: left;
-    margin-right: 5px;
-    box-sizing: content-box;
-}
-.bottom {
-    width: 100%;
-    height: 60px;
-    clear: both;
+    
+    /* box-sizing: content-box; */
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+    height: 30px;
+    /* padding: 10px 0; */
+    line-height: 25px;
 }
 
-.clearfix:after{clear:both;content:".";display:block;height:0;visibility:hidden}
-.fl{float:left}
-.fl,.fr{display:inline}
-.fr{float:right}
+.cancel{
+    margin: 14px 0;
+    color: #cba1cb;
+    display: inline-block;
+}
+/*搜索结果*/
+.search-result{
+    padding: 0 15px
+}
+.result-item{
+    border-top: 1px solid #dadada;
+    padding: 6px 0;
+}
+.result-item::after{
+    clear: both;
+}
+.item-img img {
+  width: 40px;
+  height: 40px;
+}
+.item-intro{
+    padding-left: 0
+}
+.intro-title{
+    font-size: 14px;
+    color: #717071;
+}
+.intro-content{
+    font-size: 12px;
+    color: #8b8a8a;
+}
 .tips{
     padding: 20px;
     width: 100px;
@@ -69,6 +109,7 @@ button,input[type=button],input[type=text],input[type=reset],input[type=submit]{
     display: none;
     border-radius: 3px;
 }
+/*找新药*/
 .serch-input{
     width: 85%;
     height: 28px;
@@ -87,11 +128,7 @@ button,input[type=button],input[type=text],input[type=reset],input[type=submit]{
     font-size: 14px;
     float: left;
 }
-.cancel{
-    margin: 14px 0;
-    color: #cba1cb;
-    display: inline-block;
-}
+
 .index-serch-input{
     width: 96%;
     height: 28px;
@@ -129,6 +166,11 @@ button,input[type=button],input[type=text],input[type=reset],input[type=submit]{
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px;
+}
+.bottom {
+    width: 100%;
+    height: 60px;
+    clear: both;
 }
 .navBottom ul{
     position: fixed;
@@ -172,6 +214,7 @@ button,input[type=button],input[type=text],input[type=reset],input[type=submit]{
     border-left: 1px solid #eee;
 
 }
+/*报名*/
 .regist{
     border-top: 10px solid #f2e7f2;
     color: #717071;
