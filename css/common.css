@@ -27,7 +27,13 @@ button,input[type=button],input[type=text],input[type=reset],input[type=submit]{
 :-ms-input-placeholder { /* Internet Explorer 10+ */
     color:    #D2A2C3;
 }
+.clear{
+    clear: both;
+}
 .none{
+    display: none
+}
+.ui-loader{
     display: none
 }
 .clearfix:after{clear:both;content:".";display:block;height:0;visibility:hidden}
@@ -66,10 +72,16 @@ button,input[type=button],input[type=text],input[type=reset],input[type=submit]{
     line-height: 25px;
 }
 
-.cancel{
+.cancel {
     margin: 14px 0;
     color: #cba1cb;
     display: inline-block;
+    background-color: #fff;
+    border: none;
+    display: none; 
+    position: absolute;
+    top: 0;
+    right: -28px;
 }
 /*搜索结果*/
 .search-result{

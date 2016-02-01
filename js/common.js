@@ -26,13 +26,24 @@ $(function(){
         }
 
     } );
-
-    $('.index-serch-input').focus(function(){
-        document.location='search.html'
+    $('.more').click(function(){
+        document.location="more-drug.html"
     })
-    $('.serch-input').keyup(function(){
-
-        $('.hot-search').addClass('none')
+    $('.index-serch-input').focus(function(){
+        $(this).animate({width:"85%",margin: '10px'}).css('float','left');
+        
+        $('.pannel').addClass('none')
+        $('.hot-search').removeClass('none')
+        $('.cancel').animate({right:"10px"}).css('display','inline-block')
+    });
+    $('.cancel').click(function(){
+        $('.index-serch-input').animate({width:"96%",margin: '10px auto'}).css('float','none').val('');
+        $('.cancel').animate({right:"-28px"}).css('display','none')
+        $('.pannel').addClass('none');
+        $('.index-pannel').removeClass('none')
+    })
+    $('.index-serch-input').keyup(function(){
+        $('.pannel').addClass('none');
 
         $('.search-result').removeClass('none')
     })
