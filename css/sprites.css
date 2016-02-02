@@ -1,7 +1,9 @@
-.sosuo_icon,.geren_hover_icon,.zixun_hover_icon, .geren_bg{
-    background: url(../images/sprites.png) no-repeat;
-    display: block;
-    
+.sosuo_icon, .zixun_hover_icon {
+  background: url(../images/sprites.png) no-repeat;
+  display: block;
+  background-size: 414px auto;
+  float: right;
+  margin: 8px 4% 8px 0;
 }
 .sickness{
     background: url(../images/sprites.png) no-repeat;
@@ -143,9 +145,17 @@
     background-position: -161px -56px;
     width: 14px;
 }
+.geren_hover_icon {
+  background-position: 0px -59px;
+  width: 21px;
+}
 
-
-
+.geren_bg {
+  background: url(../images/sprites.png) no-repeat;
+  height: 55px;
+  background-position: 0 -84px;
+  background-size: 414px auto;
+}
 
 
 
@@ -172,22 +182,8 @@
     background-size: 621px auto;
 }
 
-.geren_hover_icon{
-    background-position: 0 -179.9765625px ;
-    width: 63px;
-    height: 62px;
+.zixun_hover_icon {
+  background-position: -145px -56px;
+  width: 16px;
+  height: 24px;
 }
-
-.zixun_hover_icon{
-    background-position: -435.98956298828125px -172.96875px ;
-    width: 42px;
-    height: 62px;
-}
-
-
-.geren_bg{
-    background-position: 0 -250px ;
-    width: 1242px;
-    height: 180px;
-}
-

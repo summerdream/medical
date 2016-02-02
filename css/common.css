@@ -324,6 +324,176 @@ button,input[type=button],input[type=text],input[type=reset],input[type=submit]{
 .charity-item .charity-intro{
     padding-left: 15px
 }
+
+/*个人中心*/
+.user{
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 12px;
+}
+.user img{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: 3px solid #333;
+    margin-bottom: 12px;
+}
+.user p{
+    color:#7e147e;
+    font-size: 12px;
+}
+.user-row{
+    padding: 15px;
+    border-top: 1px solid #eee;
+    color: #717071;
+}
+.grade-count{
+    color:#c7a5c9;
+    margin-right: 10px;
+}
+.user-row .glyphicon{
+    line-height: 1.3;
+}
+.clear-all{
+    color:#c7a5c9;
+}
+.line{
+    height: 1px;
+    width: 100%;
+    background-color: #eee;
+    margin: 20px 0;
+}
+.input-row-2{
+    padding: 0 15px;
+}
+/*咨询*/
+.time-label{
+  background-color: #c7a5c9;
+  border-radius: 3px;
+  font-weight: 400;
+  padding: 3px;
+  margin-bottom: 10px;
+  display: inline-block;
+  color: #fff;
+  font-size: 10px;
+}
+#talk-wrap{
+    padding: 10px;
+    text-align: center;
+}
+
+.demo {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+
+.demo .article {
+  float: left;
+  color: #767676;
+  display: inline-block;
+  zoom: 1;
+  padding: 10px;
+  border: 1px solid #c7a5c9;
+  background: white;
+  border-radius: 3px;
+  background-color: white;
+  font-size: 14px;
+  text-align: left;
+}
+.talk-user{
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+}
+
+
+
+.fr { padding-left:0px;position: relative;}
+
+.fr .article {
+    float:right;
+    background-color: #F8F3F8;
+}
+.left-name{
+    text-align: left;
+    color: #c7a5c9;
+}
+.right-name{
+    text-align: right;
+    color: #c7a5c9; 
+}
+.row-left .talk-img{
+    width: 50px;
+    float: left;
+  
+}
+.row-left .article:before {
+  position: absolute;
+  top: 10px;
+  left: -9px;
+  display: inline-block;
+  content: '';
+  border-right: 10px solid #c7a5c9;    
+  border-bottom: 10px solid transparent;    
+  border-top: 10px solid transparent;
+}
+.row-left .article:after {
+  position: absolute;
+  top: 10px;
+  left: -8px;
+  display: inline-block;
+  content: '';
+  z-index: 9999;
+  border-right: 10px solid #fff;    border-bottom: 10px solid transparent;    border-top: 10px solid transparent;
+}
+.row-right .talk-img {
+  width: 50px;
+  float: right;
+}
+.row-right .article:before {
+  position: absolute;
+  top: 10px;
+  right: -9px;
+  display: inline-block;
+  content: '';
+  border-left: 10px solid #c7a5c9;    
+  border-bottom: 10px solid transparent;    
+  border-top: 10px solid transparent;
+}
+.row-right .article:after {
+  position: absolute;
+  top: 10px;
+  right: -8px;
+  display: inline-block;
+  content: '';
+  z-index: 9999;
+  border-left: 10px solid #F8F3F8;    border-bottom: 10px solid transparent;    border-top: 10px solid transparent;
+}
+.nav-input{
+    position: fixed;
+  z-index: 200;
+  bottom: 0;
+  left: auto;
+  width: 100%;
+  max-width: 768px;
+  background-color: #F8F3F8;
+  border-top: 1px solid #dadada;
+}
+.talk-input{
+    width: 85%;
+    border: 1px solid #c7a5c9;
+    height: 30px;
+    border-radius: 3px;
+    background-color: #fff;
+    padding-left: 10px;
+    margin: 5px 10px;
+}
+.row-left,.row-right{
+    margin: 10px 0;
+    clear: both;
+}
+
 /***********************/
 
 @media (-webkit-min-device-pixel-ratio:1.5),(min-device-pixel-ratio:1.5),(min-resolution: 144dpi),(min-resolution:1.5dppx) {
@@ -360,7 +530,15 @@ button,input[type=button],input[type=text],input[type=reset],input[type=submit]{
     .item-img{
         padding-left: 10px;
     }
+    .row-right .talk-img {
+      width: 50px;
+      float: right;
+    }
+    .zixun_hover_icon {
+      margin: 8px 3% 8px 0;
+    }
 }
+
 @media all and (min-width:375px){ /*ip6*/
 
 }

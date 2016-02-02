@@ -53,4 +53,7 @@ $(function(){
     $('.goCharity').click(function() {
         document.location='find-charity.html'
     })
+    $('.goUser').click(function() {
+        document.location='user-info.html'
+    })
 });
