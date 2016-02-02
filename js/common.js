@@ -56,4 +56,7 @@ $(function(){
     $('.goUser').click(function() {
         document.location='user-info.html'
     })
+    $('.goAsk').click(function() {
+        document.location='ask.html'
+    })
 });
