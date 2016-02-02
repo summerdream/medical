@@ -7,14 +7,14 @@ body{min-height:568px; min-height:100%; height:auto; font-family:Microsoft Yahei
 article,aside,dialog,figure,footer,header,hgroup,menu,nav,section{display:block}
 dl,li,menu,ol,ul{list-style:none}
 address,em,i,th{font-weight:400;font-style:normal}
-a{color:#999}
-a:link,a:visited{color:#999;text-decoration:none;cursor:pointer}
+a{text-decoration:none;}
+a:link,a:visited{color:#cba1cb;text-decoration:none;cursor:pointer}
 a:hover{cursor:pointer}
-a:active,a:focus{outline:0;star:expression(this.onFocus=this.blur())}
+a:active,a:focus{outline:0;text-decoration:none;star:expression(this.onFocus=this.blur())}
 img{width:100%;border:0;vertical-align:middle;-webkit-user-select:none;}
 input,select{outline:0}
 h1,h2,h3,h4,h5,h6{font-size:100%;font-variant:normal}
-button,input[type=button],input[type=reset],input[type=submit]{line-height:normal!important;-webkit-appearance:none}
+button,input[type=button],input[type=text],input[type=reset],input[type=submit]{line-height:normal!important;-webkit-appearance:none}
 ::-webkit-input-placeholder { /* WebKit browsers */
     color:    #D2A2C3;
 }
@@ -27,32 +27,139 @@ button,input[type=button],input[type=reset],input[type=submit]{line-height:norma
 :-ms-input-placeholder { /* Internet Explorer 10+ */
     color:    #D2A2C3;
 }
-.bottom {
-    width: 100%;
-    height: 60px;
+.clear{
     clear: both;
 }
-
+.none{
+    display: none
+}
+.ui-loader{
+    display: none
+}
 .clearfix:after{clear:both;content:".";display:block;height:0;visibility:hidden}
 .fl{float:left}
 .fl,.fr{display:inline}
 .fr{float:right}
+/*热门搜索*/
+.hot-search{
+    border-top:1px solid #dadada;
+}
+.hot-search h3{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #dadada;
+    font-size: 16px;
+}
+.keyword-row{
+    padding: 0 10px;
+}
+
+.keyword-row .keyword:not(:first-child){
+    margin-left: 5px;
+}
+.keyword{
+    border: 1px solid #dadada;
+    width: 32%;
+    float: left;
+    
+    /* box-sizing: content-box; */
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+    height: 30px;
+    /* padding: 10px 0; */
+    line-height: 25px;
+}
+
+.cancel {
+    margin: 14px 0;
+    color: #cba1cb;
+    display: inline-block;
+    background-color: #fff;
+    border: none;
+    display: none; 
+    position: absolute;
+    top: 0;
+    right: -28px;
+}
+/*搜索结果*/
+.search-result{
+    padding: 0 15px
+}
+.result-item{
+    border-top: 1px solid #dadada;
+    padding: 6px 0;
+}
+.result-item::after{
+    clear: both;
+}
+.item-img img {
+  width: 40px;
+  height: 40px;
+}
+.item-intro{
+    padding-left: 0
+}
+.intro-title{
+    font-size: 14px;
+    color: #717071;
+}
+.intro-content{
+    font-size: 12px;
+    color: #8b8a8a;
+}
+.tips{
+    padding: 20px;
+    width: 100px;
+    background-color: #7e147e;
+    color: white;
+    opacity: 0.6;
+    position: fixed;
+    top: 50%;
+    left: 40%;
+    display: none;
+    border-radius: 3px;
+}
+/*找新药*/
 .serch-input{
+    width: 85%;
+    height: 28px;
+    margin: 10px;
+    border: none;
+    display: block;
+    background-color: #F5E7F0;
+    background-image: url(../images/search.png);
+    background-repeat: no-repeat;
+    background-position: 3px 4px;
+    background-size: 22px;
+    background-origin: padding-box;
+    border-radius: 3px;
+    color: #D2A2C3;
+    padding-left: 26px;
+    font-size: 14px;
+    float: left;
+}
+
+.index-serch-input{
     width: 96%;
-    height: 42px;
+    height: 28px;
     margin: 10px auto;
     border: none;
     display: block;
     background-color: #F5E7F0;
     background-image: url(../images/search.png);
     background-repeat: no-repeat;
-    background-position: 1px;
-    background-size: 32px;
+    background-position: 3px 4px;
+    background-size: 22px;
     background-origin: padding-box;
     border-radius: 3px;
     color: #D2A2C3;
-    padding-left: 33px;
-    font-size: 18px;
+    padding-left: 26px;
+    font-size: 14px;
+}
+.opacity{
+    opacity: 1;
 }
 .carousel-indicators .active {
     width: 8px;
@@ -72,6 +179,11 @@ button,input[type=button],input[type=reset],input[type=submit]{line-height:norma
     border: 1px solid #fff;
     border-radius: 10px;
 }
+.bottom {
+    width: 100%;
+    height: 60px;
+    clear: both;
+}
 .navBottom ul{
     position: fixed;
     z-index: 200;
@@ -80,6 +192,7 @@ button,input[type=button],input[type=reset],input[type=submit]{line-height:norma
     width: 100%;
     max-width: 768px;
     background-color:#F8F3F8;
+    border-top:1px solid #dadada;
 }
 .navBottom li {
     height: 50px;
@@ -100,24 +213,26 @@ button,input[type=button],input[type=reset],input[type=submit]{line-height:norma
 .drug-item {
     float: left;
     width: 33.1%;
-    height: 120px;
+    height: 100px;
     border-bottom: 1px solid #eee;
     text-align: center;
-    color:#39383e;
+    color: #39383e !important;
     font-size: 14px;
     -webkit-box-sizing: content-box;
     box-sizing: content-box;
+    text-decoration: none !important;
 }
 .drug-item-row .drug-item:not(:first-child){
     border-left: 1px solid #eee;
 
 }
-form{
+/*报名*/
+.regist{
     border-top: 10px solid #f2e7f2;
     color: #717071;
     padding: 20px;
 }
-form label{
+.regist label{
     font-weight: 400;
 }
 .input-row{
@@ -129,6 +244,7 @@ form label{
     height: 40px;
     border-radius: 3px;
     background-color: #fff;
+    padding-left: 10px;
 }
 .purple-btn{
     width: 100%;
@@ -138,6 +254,9 @@ form label{
     border-radius: 3px;
     height: 40px;
     font-size: 18px;
+}
+.purple-btn:hover{
+    opacity: 0.8;
 }
 .drug-intro {
   font-size: 15px;
@@ -161,7 +280,7 @@ form label{
     text-align: center;
     position: relative;
     vertical-align: middle;
-    line-height: 35px;
+    line-height: 40px;
     color: #c7a5c9;
     margin: 0 0px 0 10px;
 }
@@ -174,6 +293,36 @@ form label{
     background-color: #7e147e;
     border-color: #7e147e;
     color:white;
+}
+/*找慈善*/
+.charity-item .col-xs-3,.charity-item .col-xs-6{
+    padding: 0
+}
+.charity-item {
+  border-bottom: 1px solid #dadada;
+  padding: 15px 25px;
+}
+.charity-img img {
+    width: 90px;
+    height: 60px;
+    border-radius: 4px;
+}
+.charity-title{
+    font-size: 14px;
+    line-height: 36px;
+    white-space: nowrap;
+}
+.charity-content{
+    font-size: 12px;
+    line-height: 15px;
+}
+.charity-order{
+    color: #c7a5c9;
+    margin-top: 36px;
+    font-size: 12px;
+}
+.charity-item .charity-intro{
+    padding-left: 15px
 }
 /***********************/
 
@@ -195,6 +344,22 @@ form label{
     .hairlines .oneBorder{border-width:.5px;border-width:.5px !important}
 }
 @media all and (max-width:320px){/*ip5*/
+    .charity-img img {
+      width: 80px;
+      height: 57px;
+      border-radius: 4px;
+    }
+    .charity-title {
+      font-size: 12px;
+      line-height: 36px;
+      white-space: nowrap;
+    }
+    .item-intro {
+      padding-left: 8px;
+    }
+    .item-img{
+        padding-left: 10px;
+    }
 }
 @media all and (min-width:375px){ /*ip6*/
 
