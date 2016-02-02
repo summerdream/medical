@@ -368,14 +368,19 @@ button,input[type=button],input[type=text],input[type=reset],input[type=submit]{
 }
 /*咨询*/
 .time-label{
-  background-color: #c7a5c9;
-  border-radius: 3px;
-  font-weight: 400;
-  padding: 3px;
-  margin-bottom: 10px;
-  display: inline-block;
-  color: #fff;
-  font-size: 10px;
+    background-color: #c7a5c9;
+    border-radius: 3px;
+    font-weight: 400;
+    padding: 3px;
+    margin-bottom: 10px;
+    display: inline-block;
+    color: #fff;
+    font-size: 10px;
+    display: block;
+    clear: both;
+    margin: 0 auto;
+    width: 30%;
+    min-width: 170px;
 }
 #talk-wrap{
     padding: 10px;

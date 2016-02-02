@@ -151,7 +151,7 @@
 }
 
 .geren_bg {
-  background: url(../images/sprites.png) no-repeat;
+  background: url(../images/sprites.png) repeat;
   height: 55px;
   background-position: 0 -84px;
   background-size: 414px auto;
